@@ -1,0 +1,272 @@
+.wbls-front-content {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #c1c1c1;
+    border-radius: 0px;
+    left: 0%;
+    top: 0%;
+}
+.wbls-form-container .wbls-form {
+    width: 600px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    margin: auto;
+    padding: 20px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #c1c1c1;
+    border-radius: 10px;
+}
+.wbls-front-layout {
+    background-color: #000000;
+    opacity: 0.5;
+}
+.wbls-form-container .wbls-form label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0 0 10px 0;
+    padding: 0;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #c1c1c1;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.wbls-form-container .wbls-form input[type=text],
+.wbls-form-container .wbls-form input[type=number],.wbls-form-container .wbls-form input[type=email],
+.wbls-form-container .wbls-form input[type=password], .wbls-form-container .wbls-form input[type=search]{
+    width: 100%;
+    height: 43px;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #f9f9f9;
+    color: #000000;
+    margin: 0;
+    padding: 2px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c1c1c1;
+    border-radius: 5px;
+    box-shadow: none;
+}
+.wbls-form-container .wbls-form textarea {
+    width: 100%;
+    height: 100px;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #f9f9f9;
+    color: #000000;
+    margin: 0;
+    padding: 2px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c1c1c1;
+    border-radius: 5px;
+    box-shadow: none;
+}
+.wbls-form-container .wbls-form select {
+    width: 100%;
+    height: 43px;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 2px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c1c1c1;
+    border-radius: 5px;
+    box-shadow: none;
+}
+.wbls-form-container .wbls-form input[type=checkbox],
+.wbls-form-container .wbls-form input[type=radio] {
+    width: 17px;
+    height: 17px;
+    background-color: #ffffff;
+    margin: 0 12px 0 0;
+    padding: 2px;
+    accent-color: #000000;
+}
+.wbls-form-container .wbls-form .wbls-field-row-radio {
+    margin-top: 10px;
+}
+.wbls-form-container .wbls-form .wbls-field-row-checkbox label.wbls-field-miniLabel.wbls-checkbox-label,
+.wbls-form-container .wbls-form .wbls-field-row-radio label.wbls-field-miniLabel.wbls-radio-label {
+    font-size: 14px;
+    color: #000000;
+    font-weight: normal;
+    opacity: 1;
+    margin: 0;
+}
+.wbls-form-container .wbls-form button.wbls-submit-form,
+.wbls-form-container .wbls-form button.wbls-form-submit {
+    width: 150px;
+    height: 43px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #303030;
+    margin: 12px 2px;
+    padding: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 4px;
+    box-shadow: none;
+    text-align: center;
+}
+.wbls-form-container .wbls-form button.wbls-submit-form:hover {
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #444444;
+}
+.wbls-front-buttons-container .wbls-new-case-button {
+    width: 200px;
+    height: 40px;
+    line-height: 38px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #d9514e;
+    margin: 2px;
+    padding: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c14545;
+    border-radius: 2px;
+    box-shadow: none;
+    text-align: center;
+}
+.wbls-front-buttons-container .wbls-new-case-button:hover {
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #c14545;
+}
+.wbls-front-buttons-container .wbls-followup-button {
+    width: 200px;
+    height: 40px;
+    line-height: 38px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #643e46;
+    margin: 2px;
+    padding: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #593740;
+    border-radius: 2px;
+    box-shadow: none;
+    text-align: center;
+}
+.wbls-front-buttons-container .wbls-followup-button:hover {
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #643e46;
+}
+.wbls-chat-container .wbls_user_row .wbls_message {
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #643e46;
+    color: #ffffff;
+    margin: 2px;
+    padding: 4px 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #643e46;
+    border-radius: 4px;
+    box-shadow: none;
+}
+.wbls-chat-container .wbls_admin_row .wbls_message {
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #d9514e;
+    color: #ffffff;
+    margin: 2px;
+    padding: 4px 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d9514e;
+    border-radius: 4px;
+    box-shadow: none;
+}
+.wbls-chat-container #wbls-new-reply {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 2px;
+    padding: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dfdfdf;
+    border-radius: 5px;
+    box-shadow: none;
+}
+.wbls-new-chat-section #wbls-reply-button {
+    width: 200px;
+    height: 38px;
+    line-height: 36px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #303030;
+    margin: 2px;
+    padding: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 4px;
+    box-shadow: none;
+    text-align: center;
+}
+.wbls-front-buttons-container #wbls-reply-button:hover {
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #643e46;
+}
+.wbls-login-container .wbls-token-input {
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 2px;
+    padding: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #593740;
+    border-radius: 2px;
+    box-shadow: none;
+}
+.wbls-login-container .wbls-login-button {
+    width: 200px;
+    height: 38px;
+    line-height: 36px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #643e46;
+    margin: 2px;
+    padding: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #593740;
+    border-radius: 2px;
+    box-shadow: none;
+    text-align: center;
+}
+.wbls-login-container .wbls-login-button:hover {
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #593740;
+}

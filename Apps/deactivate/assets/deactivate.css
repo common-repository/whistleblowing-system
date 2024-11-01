@@ -1,0 +1,204 @@
+.wbls-deactivat-layout {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 99999;
+}
+
+.wbls-deactivat-container {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: auto;
+    padding: 0;
+    gap: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    z-index: 99999;
+}
+
+.wbls-header-row {
+    border-bottom: 1px solid #CCC;
+    font-size: 16px;
+    background: rgba(221, 221, 221, 0.14);
+    padding: 20px 30px 20px 30px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.wbls-buttons-row {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 30px 20px 30px;
+    box-sizing: border-box;
+}
+
+.wbls-buttons-row > span {
+
+}
+
+.wbls-buttons-row span.button-primary.wbls-submit-button {
+    margin-left: 10px;
+    position: relative;
+    min-width: 200px;
+    text-align: center;
+}
+
+.wbls-buttons-row span.button-primary.wbls-submit-button.wbls-submit-loading {
+    background: rgba(34, 113, 177, 0.5);
+    cursor: default;
+}
+
+.wbls-buttons-row a.button-secondary.wbls-skip-button {
+    width: 140px;
+    text-align: center;
+    position: relative;
+    cursor: default;
+}
+
+.wbls-buttons-row a.button-secondary.wbls-skip-button.wbls-submit-loading {
+    background-color: #b4b3b3;
+}
+
+
+.wbls-buttons-row span.button-primary.wbls-submit-button.wbls-submit-loading::before,
+.wbls-buttons-row a.button-secondary.wbls-skip-button.wbls-submit-loading::before {
+    animation: rotation 1s infinite linear;
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url("../../../admin/assets/images/loader.svg") no-repeat center;
+    background-size: 20px;
+    top: calc(50% - 10px);
+    left: calc(50% - 10px);
+    display: inline-block;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.wbls-buttons-row span.wbls-submit-disabled.button-primary {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.wbls-reason-row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.wbls-deactivat-container .wbls-reason-row input[type=radio] {
+    border-radius: 50%;
+    line-height: .71428571;
+}
+
+.wbls-reason-row input[type=radio],
+.wbls-reason-row input[type=checkbox] {
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+    background: #fff;
+    color: #50575e;
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    height: 1rem;
+    outline: 0;
+    padding: 0 !important;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 1rem;
+    min-width: 1rem;
+    -webkit-appearance: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    transition: .05s border-color ease-in-out;
+}
+
+.wbls-reason-row label {
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    margin-left: 7px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #000000;
+}
+
+.wbls-additional-row {
+    margin: 30px;
+    background: rgba(204, 204, 204, 0.18);
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.wbls-additional-row p.wbls-issue-title {
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.wbls-additional-row .wbls-issue-message {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+label.wbls-terms-agree-msg {
+    font-size: 12px;
+}
+
+.wbls-deactivat-container hr {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.wbls-admin-email {
+    width: 250px;
+}
+
+.wbls-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.wbls-close:hover {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.wbls-close:before {
+    font-size: 20px;
+}
+
+.wbls-close:hover:before {
+    color: #7da2c6;
+}
+
+

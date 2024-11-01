@@ -1,0 +1,163 @@
+.wbls-pro-tooltip {
+    position: relative;
+    background-image: url(../images/pro-icon.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: right 10px top 5px;
+}
+
+.wbls-pro-banner-layout {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0,0,0, 0.5);
+    top:0;
+    left: 0;
+    z-index: 999999999;
+}
+
+.wbls-pro-banner-container {
+    display: flex;
+    width: 1100px;
+    height: 544px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 3px solid #379bd8;
+}
+
+.wbls-pro-banner-features {
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.wbls-pro-banner-features ul {
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    padding-left: 15px;
+}
+
+.wbls-pro-banner-features ul li {
+    margin: 0;
+    padding: 0;
+    font: normal normal normal 15px / 20px Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1px;
+    color: #2A2F30;
+    opacity: 1;
+    list-style: disc;
+    list-style-type: square;
+    margin-bottom: 5px;
+}
+
+.wbls-pro-banner-features ul li::marker {
+    color: #379bd8;
+  }
+
+.wbls-pro-banner-image {
+    width: 600px;
+    background: url("../images/pro_version_banner.png") no-repeat center;
+    background-size: cover;
+}
+
+.wbls-pro-banner-title {
+    text-align: left;
+    font: normal normal 600 24px / 28px Arial, Helvetica, sans-serif;
+    letter-spacing: 0.15px;
+    margin-bottom: 10px;
+    color: #0d9ad6;
+}
+
+.wbls-pro-banner-description {
+    text-align: left;
+    font: normal normal normal 18px / 24px Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    color: #2A2F30;
+}
+
+a.wbls-buyPro-button {
+    background: #0d9ad6;
+    border-radius: 6px;
+    opacity: 1;
+    color: #FFFFFF;
+    width: 100%;
+    display: block;
+    height: 40px;
+    text-align: center;
+    margin-top: 30px;
+    text-align: center;
+    font: normal normal 600 14px / 40px Arial, Helvetica, sans-serif;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: 1px;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+}
+
+a.wbls-buyPro-button:hover {
+    background: #0578a9 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.wbls-admin-header-logo {
+    height: 60px;
+    margin-right: 20px;
+}
+
+.wbls-plugins-gopro {
+    color: #93003f;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+}
+
+.wbls-plugins-gopro:hover, .wbls-plugins-gopro:focus {
+    color: #c60055;
+}
+
+.wbls-delete-theme,
+.wbls-delete-form {
+    cursor: pointer;
+    color: #ff0000;
+}
+
+.wbls-loading:after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background: #FF0000;
+    opacity: 0.8;
+}
+
+.wbls-response-message {
+    font-size: 13px;
+    padding: 4px 10px;
+    box-sizing: border-box;
+    width: 95%;
+    margin: 0 auto 10px auto;
+    display: none;
+    background-color: #ffffff;
+}
+
+.wbls-error-message {
+    border-left: 4px solid #ff0000;
+}
+
+.wbls-success-message {
+    border-left: 4px solid #4ebb2f;
+}
+
+
+

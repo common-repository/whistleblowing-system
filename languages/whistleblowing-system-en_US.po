@@ -1,0 +1,922 @@
+# Copyright (C) 2024 Whistleblowing System Pro
+# This file is distributed under the same license as the Whistleblowing System Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Whistleblowing System Pro 2.1.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/whistleblower-pro-"
+"main\n"
+"POT-Creation-Date: 2024-05-02 20:56:03+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-05-13 22:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.9; wp-6.5.3"
+
+#: admin/Controller.php:15
+msgid "You are not allowed to add form"
+msgstr "You are not allowed to add form"
+
+#: admin/Controller.php:22
+msgid "Wrong Form ID."
+msgstr "Wrong Form ID."
+
+#: admin/Controller.php:56 admin/Controller.php:83
+msgid "Form successfully updated."
+msgstr "Form successfully updated."
+
+#: admin/Controller.php:61 admin/Controller.php:89
+msgid "Error during the field/email options save, please try again."
+msgstr "Error during the field/email options save, please try again."
+
+#: admin/Controller.php:95
+msgid "Something went wrong, please try again."
+msgstr "Something went wrong, please try again."
+
+#: admin/Controller.php:103 admin/Controller.php:168
+#: admin/ControllerThemes.php:275 frontend/Controller.php:15
+#: frontend/Controller.php:114 frontend/Controller.php:180
+#: whistleblowing.php:153 whistleblowing.php:163
+msgid "Security check"
+msgstr "Security check"
+
+#: admin/Controller.php:117 admin/Controller.php:142 admin/Controller.php:172
+#: frontend/Controller.php:41 frontend/Controller.php:107
+#: frontend/frontend.php:25
+msgid "Something went wrong"
+msgstr "Something went wrong"
+
+#: admin/Controller.php:152
+msgid "You are not allowed to add default"
+msgstr "You are not allowed to add default"
+
+#: admin/Controller.php:191
+msgid "ID"
+msgstr "ID"
+
+#: admin/Controller.php:204
+msgid "Chats"
+msgstr "Chats"
+
+#: admin/Controller.php:205 admin/whistleblower_forms_page.php:29
+#: admin/whistleblower_submission_edit_page.php:117
+#: admin/whistleblower_themes_page.php:33
+msgid "Date"
+msgstr "Date"
+
+#: admin/ControllerThemes.php:302
+msgid "Untitled Theme"
+msgstr "Untitled Theme"
+
+#: admin/includes/fields_templates.php:50
+#: admin/includes/fields_templates.php:60
+#: admin/includes/fields_templates.php:87
+msgid "New Choice"
+msgstr "New Choice"
+
+#: admin/includes/fields_templates.php:70
+msgid "First Choice"
+msgstr "First Choice"
+
+#: admin/includes/fields_templates.php:74
+msgid "Second Choice"
+msgstr "Second Choice"
+
+#: admin/includes/fields_templates.php:78
+msgid "Third Choice"
+msgstr "Third Choice"
+
+#: admin/includes/fields_templates.php:99
+#: admin/includes/fields_templates.php:137
+msgid "First"
+msgstr "First"
+
+#: admin/includes/fields_templates.php:103
+#: admin/includes/fields_templates.php:171
+msgid "Last"
+msgstr "Last"
+
+#: admin/includes/fields_templates.php:114
+#: admin/includes/fields_templates.php:150
+msgid "Middle"
+msgstr "Middle"
+
+#: admin/includes/fields_templates.php:121
+msgid "Edit Field"
+msgstr "Edit Field"
+
+#: admin/includes/fields_templates.php:122
+msgid "Delete Field"
+msgstr "Delete Field"
+
+#: admin/includes/fields_templates.php:130
+msgid "First name"
+msgstr "First name"
+
+#: admin/includes/fields_templates.php:134
+#: admin/includes/fields_templates.php:147
+#: admin/includes/fields_templates.php:168
+#: admin/includes/fields_templates.php:189
+msgid "Placeholder"
+msgstr "Placeholder"
+
+#: admin/includes/fields_templates.php:138
+#: admin/includes/fields_templates.php:151
+#: admin/includes/fields_templates.php:172
+msgid "Mini label"
+msgstr "Mini label"
+
+#: admin/includes/fields_templates.php:143
+msgid "Middle name"
+msgstr "Middle name"
+
+#: admin/includes/fields_templates.php:156
+msgid "Hide middle name"
+msgstr "Hide middle name"
+
+#: admin/includes/fields_templates.php:164
+msgid "Last name"
+msgstr "Last name"
+
+#: admin/includes/fields_templates.php:181
+msgid "Label"
+msgstr "Label"
+
+#: admin/includes/fields_templates.php:185
+msgid "Description"
+msgstr "Description"
+
+#: admin/includes/fields_templates.php:193
+msgid "Required"
+msgstr "Required"
+
+#: admin/whistleblower_form_edit_page.php:208
+#: admin/whistleblower_theme_edit_page.php:34
+msgid "Untitled Form"
+msgstr "Untitled Form"
+
+#: admin/whistleblower_form_edit_page.php:253
+msgid "Form Title"
+msgstr "Form Title"
+
+#: admin/whistleblower_form_edit_page.php:257
+msgid "WhistleBlower Off"
+msgstr "WhistleBlower Off"
+
+#: admin/whistleblower_form_edit_page.php:262
+msgid "WhistleBlower On"
+msgstr "WhistleBlower On"
+
+#: admin/whistleblower_form_edit_page.php:266
+#: admin/whistleblower_forms_page.php:28
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/whistleblower_form_edit_page.php:271
+msgid "Preview"
+msgstr "Preview"
+
+#: admin/whistleblower_form_edit_page.php:274
+#: admin/whistleblower_theme_edit_page.php:66
+msgid "Save"
+msgstr "Save"
+
+#: admin/whistleblower_form_edit_page.php:277
+msgid "Fields"
+msgstr "Fields"
+
+#: admin/whistleblower_form_edit_page.php:278
+msgid "Email Options"
+msgstr "Email Options"
+
+#: admin/whistleblower_form_edit_page.php:279
+msgid "Display options"
+msgstr "Display options"
+
+#: admin/whistleblower_form_edit_page.php:280
+msgid "Settings"
+msgstr "Settings"
+
+#: admin/whistleblower_form_edit_page.php:298
+msgid "Add Fields"
+msgstr "Add Fields"
+
+#: admin/whistleblower_form_edit_page.php:299
+msgid "Field Options"
+msgstr "Field Options"
+
+#: admin/whistleblower_form_edit_page.php:332
+msgid "Send Notification Email"
+msgstr "Send Notification Email"
+
+#: admin/whistleblower_form_edit_page.php:334
+msgid "Yes"
+msgstr "Yes"
+
+#: admin/whistleblower_form_edit_page.php:336
+msgid "No"
+msgstr "No"
+
+#: admin/whistleblower_form_edit_page.php:337
+msgid ""
+"Enable this setting to send submitted information to administrators and/or "
+"the submitter."
+msgstr ""
+"Enable this setting to send submitted information to administrators and/or "
+"the submitter."
+
+#: admin/whistleblower_form_edit_page.php:338
+msgid ""
+"In case you cannot find the submission email in your Inbox, make sure to "
+"check the Spam folder as well."
+msgstr ""
+"In case you cannot find the submission email in your Inbox, make sure to "
+"check the Spam folder as well."
+
+#: admin/whistleblower_form_edit_page.php:348
+msgid "Email to Administrator"
+msgstr "Email to Administrator"
+
+#: admin/whistleblower_form_edit_page.php:352
+msgid "Email to send submissions to"
+msgstr "Email to send submissions to"
+
+#: admin/whistleblower_form_edit_page.php:354
+msgid ""
+"Specify the email address(es), to which submitted form information will be "
+"sent. For multiple email addresses separate with commas."
+msgstr ""
+"Specify the email address(es), to which submitted form information will be "
+"sent. For multiple email addresses separate with commas."
+
+#: admin/whistleblower_form_edit_page.php:357
+msgid "Email From"
+msgstr "Email From"
+
+#: admin/whistleblower_form_edit_page.php:359
+msgid ""
+"Specify the email address from which the administrator will receive the "
+"email."
+msgstr ""
+"Specify the email address from which the administrator will receive the "
+"email."
+
+#: admin/whistleblower_form_edit_page.php:360
+msgid ""
+"We recommend you to use an email address belonging to your website domain."
+msgstr ""
+"We recommend you to use an email address belonging to your website domain."
+
+#: admin/whistleblower_form_edit_page.php:362
+msgid ""
+"If sender email address is not hosted on the same domain as your website, "
+"some hosting providers may not send the emails."
+msgstr ""
+"If sender email address is not hosted on the same domain as your website, "
+"some hosting providers may not send the emails."
+
+#: admin/whistleblower_form_edit_page.php:363
+msgid "In addition, relaying mail servers may consider the emails as phishing."
+msgstr ""
+"In addition, relaying mail servers may consider the emails as phishing."
+
+#: admin/whistleblower_form_edit_page.php:367
+msgid "From Name"
+msgstr "From Name"
+
+#: admin/whistleblower_form_edit_page.php:369
+msgid ""
+"Set the name or search for a form field which is shown as the sender’s name "
+"in submission or confirmation emails."
+msgstr ""
+"Set the name or search for a form field which is shown as the sender’s name "
+"in submission or confirmation emails."
+
+#: admin/whistleblower_form_edit_page.php:372
+msgid "Subject"
+msgstr "Subject"
+
+#: admin/whistleblower_form_edit_page.php:375
+msgid ""
+"Add a custom subject or search for a form field for the submission email. In "
+"case it’s left blank, Form Title will be set as the subject of submission "
+"emails."
+msgstr ""
+"Add a custom subject or search for a form field for the submission email. In "
+"case it’s left blank, Form Title will be set as the subject of submission "
+"emails."
+
+#: admin/whistleblower_form_edit_page.php:378
+msgid "Custom Text in Email For Administrator"
+msgstr "Custom Text in Email For Administrator"
+
+#: admin/whistleblower_form_edit_page.php:399
+msgid ""
+"Write custom content to the email message which is sent to administrator. "
+"Include All Fields List to forward all submitted information, or click on "
+"fields buttons to use individual field values in the content."
+msgstr ""
+"Write custom content to the email message which is sent to administrator. "
+"Include All Fields List to forward all submitted information, or click on "
+"fields buttons to use individual field values in the content."
+
+#: admin/whistleblower_form_edit_page.php:433
+msgid "Whistleblower form button texts"
+msgstr "Whistleblower form button texts"
+
+#: admin/whistleblower_form_edit_page.php:437
+msgid "New case button text"
+msgstr "New case button text"
+
+#: admin/whistleblower_form_edit_page.php:440
+msgid ""
+"The 'New Case' button text is visible on the frontend for the whistleblower "
+"form. When clicked, it opens the form in a popup."
+msgstr ""
+"The 'New Case' button text is visible on the frontend for the whistleblower "
+"form. When clicked, it opens the form in a popup."
+
+#: admin/whistleblower_form_edit_page.php:444
+msgid "Follow up case button text"
+msgstr "Follow up case button text"
+
+#: admin/whistleblower_form_edit_page.php:447
+msgid ""
+"The 'Follow up' button text is visible on the frontend for the whistleblower "
+"form. When clicked, it opens the login form in a popup."
+msgstr ""
+"The 'Follow up' button text is visible on the frontend for the whistleblower "
+"form. When clicked, it opens the login form in a popup."
+
+#: admin/whistleblower_form_edit_page.php:451
+msgid "Login button text"
+msgstr "Login button text"
+
+#: admin/whistleblower_form_edit_page.php:454
+msgid ""
+"The 'Login' button text is visible on the frontend for the whistleblower "
+"form. When clicked, it opens the login form in a popup."
+msgstr ""
+"The 'Login' button text is visible on the frontend for the whistleblower "
+"form. When clicked, it opens the login form in a popup."
+
+#: admin/whistleblower_form_edit_page.php:458
+msgid "Copy token button text"
+msgstr "Copy token button text"
+
+#: admin/whistleblower_form_edit_page.php:461
+msgid ""
+"The 'Copy token' button text is visible on the frontend for the "
+"whistleblower form. After the form is submitted, it displays the token for "
+"future reference, along with the 'Copy token' button."
+msgstr ""
+"The 'Copy token' button text is visible on the frontend for the "
+"whistleblower form. After the form is submitted, it displays the token for "
+"future reference, along with the 'Copy token' button."
+
+#: admin/whistleblower_form_edit_page.php:465
+msgid "Reply button text"
+msgstr "Reply button text"
+
+#: admin/whistleblower_form_edit_page.php:468
+msgid ""
+"The 'Reply' button text is visible on the frontend for the whistleblower "
+"form. After logging in using the token, it displays the chat popup, along "
+"with the 'Reply' button."
+msgstr ""
+"The 'Reply' button text is visible on the frontend for the whistleblower "
+"form. After logging in using the token, it displays the chat popup, along "
+"with the 'Reply' button."
+
+#: admin/whistleblower_form_edit_page.php:477
+msgid "Form active theme"
+msgstr "Form active theme"
+
+#: admin/whistleblower_form_edit_page.php:481 whistleblowing.php:307
+msgid "Theme"
+msgstr "Theme"
+
+#: admin/whistleblower_form_edit_page.php:490
+msgid "Select a theme to which the form should be connected."
+msgstr "Select a theme to which the form should be connected."
+
+#: admin/whistleblower_form_edit_page.php:497
+msgid "Submit messages"
+msgstr "Submit messages"
+
+#: admin/whistleblower_form_edit_page.php:501
+msgid "Success message text"
+msgstr "Success message text"
+
+#: admin/whistleblower_form_edit_page.php:504
+msgid ""
+"A form success message text typically informs users that their submission "
+"was successful."
+msgstr ""
+"A form success message text typically informs users that their submission "
+"was successful."
+
+#: admin/whistleblower_form_edit_page.php:508
+msgid "Success message text about token copy for whistleblowing form"
+msgstr "Success message text about token copy for whistleblowing form"
+
+#: admin/whistleblower_form_edit_page.php:511
+msgid ""
+"A form success message text typically informs users that he/she should keep "
+"token for future login."
+msgstr ""
+"A form success message text typically informs users that he/she should keep "
+"token for future login."
+
+#: admin/whistleblower_form_edit_page.php:515
+msgid "Error message text"
+msgstr "Error message text"
+
+#: admin/whistleblower_form_edit_page.php:518
+msgid ""
+"A form error message text typically informs users that their submission was "
+"not successful."
+msgstr ""
+"A form error message text typically informs users that their submission was "
+"not successful."
+
+#: admin/whistleblower_form_edit_page.php:536
+msgid "Upload file settings"
+msgstr "Upload file settings"
+
+#: admin/whistleblower_form_edit_page.php:540
+msgid "Allowed file types"
+msgstr "Allowed file types"
+
+#: admin/whistleblower_form_edit_page.php:550
+msgid "Select file types which will be allowed for upload"
+msgstr "Select file types which will be allowed for upload"
+
+#: admin/whistleblower_form_edit_page.php:552
+#: admin/whistleblower_form_edit_page.php:561
+msgid ""
+"Note that this option also affects the chat upload field on the admin page "
+"and the chat upload field on the frontend page."
+msgstr ""
+"Note that this option also affects the chat upload field on the admin page "
+"and the chat upload field on the frontend page."
+
+#: admin/whistleblower_form_edit_page.php:556
+msgid "File maximum size"
+msgstr "File maximum size"
+
+#: admin/whistleblower_form_edit_page.php:559
+msgid "The maximum file size that a user can upload, in MB."
+msgstr "The maximum file size that a user can upload, in MB."
+
+#: admin/whistleblower_form_edit_page.php:577
+msgid "Shortcode will show buttons view as start."
+msgstr "Shortcode will show buttons view as start."
+
+#: admin/whistleblower_form_edit_page.php:583
+#: admin/whistleblower_form_edit_page.php:594
+#: admin/whistleblower_form_edit_page.php:604
+msgid "Copy embed code to clipboard"
+msgstr "Copy embed code to clipboard"
+
+#: admin/whistleblower_form_edit_page.php:584
+#: admin/whistleblower_form_edit_page.php:595
+#: admin/whistleblower_form_edit_page.php:605
+msgid "Copied"
+msgstr "Copied"
+
+#: admin/whistleblower_form_edit_page.php:589
+msgid "Shortcode will show form."
+msgstr "Shortcode will show form."
+
+#: admin/whistleblower_form_edit_page.php:599
+msgid "Shortcode will show login/chat view"
+msgstr "Shortcode will show login/chat view"
+
+#: admin/whistleblower_forms_page.php:20 whistleblowing.php:198
+msgid "All Forms"
+msgstr "All Forms"
+
+#: admin/whistleblower_forms_page.php:21 admin/whistleblower_themes_page.php:26
+#: whistleblowing.php:248 whistleblowing.php:297
+msgid "Add New"
+msgstr "Add New"
+
+#: admin/whistleblower_forms_page.php:26
+#: admin/whistleblower_submissions_page.php:30
+#: admin/whistleblower_themes_page.php:31
+msgid "Name"
+msgstr "Name"
+
+#: admin/whistleblower_forms_page.php:27 admin/whistleblower_themes_page.php:32
+msgid "Author"
+msgstr "Author"
+
+#: admin/whistleblower_forms_page.php:30
+#: admin/whistleblower_submissions_page.php:32
+msgid "Type"
+msgstr "Type"
+
+#: admin/whistleblower_forms_page.php:41 admin/whistleblower_themes_page.php:44
+#: whistleblowing.php:201 whistleblowing.php:202 whistleblowing.php:203
+msgid "Edit"
+msgstr "Edit"
+
+#: admin/whistleblower_forms_page.php:43
+#: admin/whistleblower_submission_edit_page.php:134
+#: admin/whistleblower_submissions_page.php:45
+#: admin/whistleblower_themes_page.php:46
+msgid "Delete"
+msgstr "Delete"
+
+#: admin/whistleblower_forms_page.php:52
+#: admin/whistleblower_submissions_page.php:53
+msgid "Standart"
+msgstr "Standart"
+
+#: admin/whistleblower_forms_page.php:54
+#: admin/whistleblower_submissions_page.php:55
+msgid "Whistleblowing"
+msgstr "Whistleblowing"
+
+#: admin/whistleblower_submission_edit_page.php:70 frontend/frontend.php:37
+msgid "File size should be less then"
+msgstr "File size should be less then"
+
+#: admin/whistleblower_submission_edit_page.php:71 frontend/frontend.php:38
+msgid "Invalid file type: allowed types are"
+msgstr "Invalid file type: allowed types are"
+
+#: admin/whistleblower_submission_edit_page.php:80
+msgid "Submissions of"
+msgstr "Submissions of"
+
+#: admin/whistleblower_submission_edit_page.php:82
+msgid "form"
+msgstr "form"
+
+#: admin/whistleblower_submission_edit_page.php:84
+msgid "Export CSV"
+msgstr "Export CSV"
+
+#: admin/whistleblower_submission_edit_page.php:119
+msgid "Chat"
+msgstr "Chat"
+
+#: admin/whistleblower_submission_edit_page.php:120
+msgid "Access"
+msgstr "Access"
+
+#: admin/whistleblower_submission_edit_page.php:151
+#: admin/whistleblower_submission_edit_page.php:259
+msgid "PDF file"
+msgstr "PDF file"
+
+#: admin/whistleblower_submission_edit_page.php:153
+#: admin/whistleblower_submission_edit_page.php:261
+msgid "MP3 file"
+msgstr "MP3 file"
+
+#: admin/whistleblower_submission_edit_page.php:155
+#: admin/whistleblower_submission_edit_page.php:263
+msgid "WAV file"
+msgstr "WAV file"
+
+#: admin/whistleblower_submission_edit_page.php:207
+msgid "Open Chat"
+msgstr "Open Chat"
+
+#: admin/whistleblower_submission_edit_page.php:211
+msgid "Get access tokens"
+msgstr "Get access tokens"
+
+#: admin/whistleblower_submission_edit_page.php:214
+msgid "Admin login token"
+msgstr "Admin login token"
+
+#: admin/whistleblower_submission_edit_page.php:218
+msgid "User login token"
+msgstr "User login token"
+
+#: admin/whistleblower_submission_edit_page.php:293 library.php:301
+msgid "Send"
+msgstr "Send"
+
+#: admin/whistleblower_submissions_page.php:24
+msgid "All Submissions"
+msgstr "All Submissions"
+
+#: admin/whistleblower_submissions_page.php:31
+msgid "Count"
+msgstr "Count"
+
+#: admin/whistleblower_submissions_page.php:43
+msgid "View"
+msgstr "View"
+
+#: admin/whistleblower_theme_edit_page.php:53
+msgid "Theme Title"
+msgstr "Theme Title"
+
+#: admin/whistleblower_theme_edit_page.php:71
+msgid "General"
+msgstr "General"
+
+#: admin/whistleblower_theme_edit_page.php:72
+msgid "Form fields"
+msgstr "Form fields"
+
+#: admin/whistleblower_theme_edit_page.php:73
+msgid "Start Buttons"
+msgstr "Start Buttons"
+
+#: admin/whistleblower_theme_edit_page.php:74
+msgid "Chat styles"
+msgstr "Chat styles"
+
+#: admin/whistleblower_theme_edit_page.php:75
+msgid "Login styles"
+msgstr "Login styles"
+
+#: admin/whistleblower_theme_edit_page.php:103
+msgid "Popup Container Styles"
+msgstr "Popup Container Styles"
+
+#: admin/whistleblower_theme_edit_page.php:112
+msgid "Form Container Styles"
+msgstr "Form Container Styles"
+
+#: admin/whistleblower_theme_edit_page.php:121
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: admin/whistleblower_theme_edit_page.php:250
+msgid "Login Input Field  Styles"
+msgstr "Login Input Field  Styles"
+
+#: admin/whistleblower_theme_edit_page.php:259
+msgid "Login Button Styles"
+msgstr "Login Button Styles"
+
+#: admin/whistleblower_theme_edit_page.php:274
+msgid "Client Message Styles"
+msgstr "Client Message Styles"
+
+#: admin/whistleblower_theme_edit_page.php:283
+msgid "Admin Message Styles"
+msgstr "Admin Message Styles"
+
+#: admin/whistleblower_theme_edit_page.php:292
+msgid "Message Textarea Styles"
+msgstr "Message Textarea Styles"
+
+#: admin/whistleblower_theme_edit_page.php:302
+msgid "Send Button Styles"
+msgstr "Send Button Styles"
+
+#: admin/whistleblower_theme_edit_page.php:316
+msgid "New Case Button Styles"
+msgstr "New Case Button Styles"
+
+#: admin/whistleblower_theme_edit_page.php:325
+msgid "Follow Case Button Styles"
+msgstr "Follow Case Button Styles"
+
+#: admin/whistleblower_theme_edit_page.php:339
+msgid "Labels"
+msgstr "Labels"
+
+#: admin/whistleblower_theme_edit_page.php:348
+msgid "Input Field"
+msgstr "Input Field"
+
+#: admin/whistleblower_theme_edit_page.php:357
+msgid "Textarea"
+msgstr "Textarea"
+
+#: admin/whistleblower_theme_edit_page.php:366
+msgid "Dropdown"
+msgstr "Dropdown"
+
+#: admin/whistleblower_theme_edit_page.php:375
+msgid "Checkbox/Radio Field"
+msgstr "Checkbox/Radio Field"
+
+#: admin/whistleblower_theme_edit_page.php:385
+msgid "Buttons"
+msgstr "Buttons"
+
+#: admin/whistleblower_themes_page.php:25 whistleblowing.php:295
+msgid "All themes"
+msgstr "All themes"
+
+#: admin/whistleblower_themes_page.php:34
+msgid "Default"
+msgstr "Default"
+
+#: admin/wistleblower_templates.php:5
+msgid "Whistleblowing System PRO"
+msgstr "Whistleblowing System PRO"
+
+#: admin/wistleblower_templates.php:7
+msgid ""
+"Buy the Whistleblowing Pro Plugin to simplify your connection with clients."
+msgstr ""
+"Buy the Whistleblowing Pro Plugin to simplify your connection with clients."
+
+#: admin/wistleblower_templates.php:10
+msgid "Ticket and chat management in the admin area"
+msgstr "Ticket and chat management in the admin area"
+
+#: admin/wistleblower_templates.php:11 admin/wistleblower_templates.php:14
+msgid "Adapt the color scheme to your own corporate design"
+msgstr "Adapt the color scheme to your own corporate design"
+
+#: admin/wistleblower_templates.php:12
+msgid "Customize email subject and message content for admin"
+msgstr "Customize email subject and message content for admin"
+
+#: admin/wistleblower_templates.php:13
+msgid "Notification to multiple selected email addresses"
+msgstr "Notification to multiple selected email addresses"
+
+#: admin/wistleblower_templates.php:15
+msgid "File Upload"
+msgstr "File Upload"
+
+#: admin/wistleblower_templates.php:16
+msgid "Premium Support"
+msgstr "Premium Support"
+
+#: admin/wistleblower_templates.php:17
+msgid "Form submissions CSV export"
+msgstr "Form submissions CSV export"
+
+#: admin/wistleblower_templates.php:20
+msgid "Buy Whistleblowing Pro Plugin"
+msgstr "Buy Whistleblowing Pro Plugin"
+
+#: frontend/Controller.php:20 frontend/Controller.php:29
+#: frontend/Controller.php:119
+msgid "Security issue!"
+msgstr "Security issue!"
+
+#: frontend/Controller.php:68 frontend/Controller.php:152
+msgid "Token is not correct, please check and try one more time"
+msgstr "Token is not correct, please check and try one more time"
+
+#: frontend/Controller.php:125
+msgid "Token issue, please check and try one more time"
+msgstr "Token issue, please check and try one more time"
+
+#: frontend/Controller.php:158
+msgid "There is no any message in this ticket, please open new ticket"
+msgstr "There is no any message in this ticket, please open new ticket"
+
+#: frontend/Controller.php:343
+msgid "Checked"
+msgstr "Checked"
+
+#: frontend/Controller.php:345
+msgid "Not checked"
+msgstr "Not checked"
+
+#: frontend/frontend.php:24
+msgid "Form Successfully Submitted"
+msgstr "Form Successfully Submitted"
+
+#: frontend/frontend.php:26
+msgid ""
+"Please copy and retain this token for future login and for follow-up on the "
+"response."
+msgstr ""
+"Please copy and retain this token for future login and for follow-up on the "
+"response."
+
+#: frontend/frontend.php:156
+msgid ""
+"Please copy and keep the token. You can see the company answer only if you "
+"have token"
+msgstr ""
+"Please copy and keep the token. You can see the company answer only if you "
+"have token"
+
+#: library.php:290
+msgid "New choice"
+msgstr "New choice"
+
+#: whistleblowing.php:123
+msgid "Get Whistleblower Pro"
+msgstr "Get Whistleblower Pro"
+
+#: whistleblowing.php:200 whistleblowing.php:243 whistleblowing.php:244
+msgid "Submissions"
+msgstr "Submissions"
+
+#: whistleblowing.php:204 whistleblowing.php:292 whistleblowing.php:293
+msgid "Themes"
+msgstr "Themes"
+
+#: whistleblowing.php:222
+msgid "Forms"
+msgstr "Forms"
+
+#: whistleblowing.php:223
+msgid "Form"
+msgstr "Form"
+
+#: whistleblowing.php:241
+msgctxt "Post Type General Name"
+msgid "Submissions"
+msgstr "Submissions"
+
+#: whistleblowing.php:242
+msgctxt "Post Type Singular Name"
+msgid "Submission"
+msgstr "Submission"
+
+#: whistleblowing.php:245 whistleblowing.php:294
+msgid "Parent Item:"
+msgstr "Parent Item:"
+
+#: whistleblowing.php:246
+msgid "All Items"
+msgstr "All Items"
+
+#: whistleblowing.php:247
+msgid "Add New Item"
+msgstr "Add New Item"
+
+#: whistleblowing.php:249 whistleblowing.php:298
+msgid "New Item"
+msgstr "New Item"
+
+#: whistleblowing.php:250 whistleblowing.php:299
+msgid "Edit Item"
+msgstr "Edit Item"
+
+#: whistleblowing.php:251 whistleblowing.php:300
+msgid "Update Item"
+msgstr "Update Item"
+
+#: whistleblowing.php:252 whistleblowing.php:301
+msgid "View Item"
+msgstr "View Item"
+
+#: whistleblowing.php:253 whistleblowing.php:302
+msgid "Search Item"
+msgstr "Search Item"
+
+#: whistleblowing.php:255 whistleblowing.php:304
+msgid "Not found in Trash"
+msgstr "Not found in Trash"
+
+#: whistleblowing.php:259
+msgid "Submission"
+msgstr "Submission"
+
+#: whistleblowing.php:260
+msgid "Form Submissions"
+msgstr "Form Submissions"
+
+#: whistleblowing.php:290
+msgctxt "Post Type General Name"
+msgid "Themes"
+msgstr "Themes"
+
+#: whistleblowing.php:291
+msgctxt "Post Type Singular Name"
+msgid "Theme"
+msgstr "Theme"
+
+#: whistleblowing.php:296
+msgid "Add New theme"
+msgstr "Add New theme"
+
+#: whistleblowing.php:308
+msgid "Form themes"
+msgstr "Form themes"
+
+#. Plugin Name of the plugin/theme
+msgid "Whistleblowing System Pro"
+msgstr "Whistleblowing System Pro"
+
+#. Plugin URI of the plugin/theme
+msgid "https://whistleblowing-form.de"
+msgstr "https://whistleblowing-form.de"
+
+#. Description of the plugin/theme
+msgid ""
+"Whistleblowing system form is the ultimate solution for effortlessly "
+"creating and managing contact and whistleblowing forms."
+msgstr ""
+"Whistleblowing system form is the ultimate solution for effortlessly "
+"creating and managing contact and whistleblowing forms."
+
+#. Author of the plugin/theme
+msgid "Whistleblowing System Team"
+msgstr "Whistleblowing System Team"

@@ -1,0 +1,891 @@
+#wbls-take p,
+.wbls-form p {
+    margin: 0;
+    padding: 0;
+}
+
+.wbls-security {
+    display: none!important;
+}
+
+.wbls-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+    overflow: auto;    
+    font-family: inherit;
+}
+
+.wblsform-page-and-images {
+    display: none;
+}
+
+.wblsform-page-and-images.wblsform-active-page {
+    display: block;
+}
+
+.wbls-form-container input[type=button] {
+    width: 200px;
+    height: 35px;
+    line-height: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #0b86c4;
+    cursor: pointer;
+}
+
+.wbls-form-container input:focus-visible,
+.wbls-form-container textarea:focus-visible{
+    outline: none;
+}
+
+.wbls-form input[type='email']:focus{
+    border-bottom: 2px #000 solid;
+}
+
+.wbls-form-container input::file-selector-button {
+    font-weight: bold;
+    color: #000;
+    padding: 5px 10px;
+    border: thin solid #000;
+    border-radius: 3px;
+    margin-right:8px;
+    cursor: pointer;
+}
+
+.wbls-form-container input::file-selector-button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.wbls-front-content ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+  
+.wbls-front-content ::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f5;
+}
+  
+.wbls-front-content ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.44, rgb(181 181 181)),
+      color-stop(0.72, rgb(171 171 171)),
+      color-stop(0.86, rgb(146 145 145))
+    );
+}  
+
+.wbls-front-buttons-container {
+    display: flex;
+    width: auto;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+.wbls-front-content-close {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    right: 90px;
+    color: #000000;
+    font-size: 12px;
+    border: 3px solid #9f9f9f;
+    border-radius: 20px;
+    background: #959595 url(../images/close_w.svg);
+    background-size: 34px;
+    box-sizing: border-box;
+}
+
+.wbls-token-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.wbls-login-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.wbls-new-chat-section {
+    height: auto;
+}
+
+.wbls_user_row {
+    justify-content: right;
+    display: flex;
+
+}
+
+.wbls_admin_row {
+    justify-content: left;
+    display: flex;
+
+}
+
+.wbls_message_col {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+}
+
+body .wbls-front-layout {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 998;
+    background-color: #000000;
+    opacity: 0.5;
+}
+
+.wbls-token-row {
+    display: block;
+    width: 500px;
+    margin: auto;
+    height: auto;
+}
+
+.wbls-login-container .wbls-token-input:focus{
+    border-bottom: 2px #000 solid;
+}
+
+.wbls-token-row input:focus-visible{
+    outline: none;
+}
+
+.wbls-token-value {
+    display: block;
+    border: 1px solid #cccccc;
+    padding: 2px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    height: 35px;
+    font-size: 15px;
+    line-height: 29px;
+    box-sizing: border-box;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.wbls-copy-button {
+    display: block;
+    position: relative;
+    width: 120px;
+    height: 35px;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 15px auto;
+    border: 1px solid #593740;
+    background-color: #643e46;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.wbls-copy-button .wbls-form-token-copy-tooltip {
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    top: -30px;
+    right: 0px;
+    font-size: 12px;
+    display: none;
+}
+
+.wbls-token-description {
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+    margin: auto;
+    font-weight: 500;
+    text-align: center;
+}
+
+.wbls-chat-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: inherit;
+    justify-content: space-between;
+}
+
+.wbls-chats-section {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 100%;
+    min-height: 200px;
+}
+
+.wbls-chats-section::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+.wbls-chats-section::-webkit-scrollbar-track {
+    background: #f0ebeb;
+}
+
+/* Handle */
+.wbls-chats-section::-webkit-scrollbar-thumb {
+    background: #c3c1c1;
+}
+
+/* Handle on hover */
+.wbls-chats-section::-webkit-scrollbar-thumb:hover {
+    background: #adacac;
+}
+
+.wbls_user_row {
+    justify-content: right;
+    display: flex;
+
+}
+
+.wbls_admin_row {
+    justify-content: left;
+    display: flex;
+}
+
+.wbls_message_col {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+}
+
+.wbls_user_row .wbls_message_date,
+.wbls_user_row .wbls_message_role,
+.wbls_admin_row .wbls_message_date,
+.wbls_admin_row .wbls_message_role {
+    font-size: 12px;
+    text-align: left;
+    margin-top: 15px
+}
+
+.wbls_user_row .wbls_message_date,
+.wbls_user_row .wbls_message_role {
+    padding-right: 10px;
+}
+
+
+.wbls_message_attachement {
+    height: auto;
+    width: 150px;
+    max-height: 250px;
+}
+
+.wbls-form .wblsform-row .wbls-field-row-radio,
+.wbls-form .wblsform-row .wbls-field-row-checkbox {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.wbls-form .wblsform-row .wbls-field-row-checkbox label {
+    margin: 0;
+}
+
+.wbls-form .wblsform-row.wbls-validation-error input,
+.wbls-form .wblsform-row.wbls-required-error input,
+.wbls-form .wblsform-row.wbls-required-error textarea,
+.wbls-form .wblsform-row.wbls-required-error #wbls-grecaptcha > div {
+    color: #FF0000!important;
+    border: 1px solid #ff0000!important;
+}
+
+.wbls-form .wblsform-row.wbls-validation-error label,
+.wbls-form .wblsform-row.wbls-required-error label {
+    color: #FF0000!important;
+}
+
+
+.wbls-form .wbls-field-row.wbls-validation-error label,
+.wbls-form .wbls-field-row.wbls-required-error label {
+    color: #FF0000;
+}
+
+#wbls-reply-button.wbls-button-loading::before,
+.wbls-form .wbls-button-loading::before {
+    animation: rotation 1s infinite linear;
+    position: absolute;
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: url(../images/loader.svg) no-repeat;
+    background-size: 24px;
+    top: calc(50% - 9px);
+    left: calc(50% - 9px);
+    display: inline-block;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+/* Theme Default style */
+body .wbls-front-content {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #c1c1c1;
+    border-radius: 0px;
+    left: 0%;
+    top: 0%;
+    position: fixed;
+    padding: 50px;
+    z-index: 999;
+}
+.wbls-form {
+    width: 450px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    margin: auto;
+    padding: 40px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #c1c1c1;
+    border-radius: 10px;
+    /*
+    box-shadow: 5px 5px 11px 1px rgb(199 199 199 / 75%);
+    -webkit-box-shadow: 5px 5px 11px 1px rgb(199 199 199 / 75%);
+    -moz-box-shadow: 5px 5px 11px 1px rgba(0,0,0,0.75);
+    */
+}
+.wbls-form label {
+    font-size: 14px;
+    font-weight: normal;
+    color: #643e46;
+    margin: 12px 0 3px 0;
+    padding: 2px 8px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #c1c1c1;
+    border-radius: 0px;
+    box-shadow: none;
+    display: flex;
+    font-family: inherit;
+}
+.wbls-form input[type=text],
+.wbls-form input[type=number],.wbls-form input[type=email],
+.wbls-form input[type=password], .wbls-form input[type=search] {
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+    font-weight: normal;
+    background-color: #f9f9f9;
+    color: #000000;
+    margin: 2px;
+    padding: 2px 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c1c1c1;
+    border-radius: 5px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+.wbls-form textarea {
+    width: 100%;
+    height: 50px;
+    font-size: 12px;
+    font-weight: normal;
+    background-color: #f9f9f9;
+    color: #000000;
+    margin: 2px;
+    padding: 4px 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c1c1c1;
+    border-radius: 5px;
+    box-shadow: none;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+.wbls-form select {
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+    font-weight: normal;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 2px;
+    padding: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c1c1c1;
+    border-radius: 2px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+.wbls-form input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    margin: 2px;
+    padding: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c1c1c1;
+    border-radius: 2px;
+    box-shadow: none;
+    display: block;
+    accent-color: #000000;
+}
+.wbls-form button.wbls-submit-form {
+    position: relative;
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #303030;
+    margin: 12px 2px;
+    padding: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 4px;
+    box-shadow: none;
+    text-align: center;
+    font-family: inherit;
+    cursor: pointer;
+}
+.wbls-form button.wbls-submit-form:hover {
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #000000;
+}
+.wbls-front-buttons-container .wbls-new-case-button {
+    width: 200px;
+    height: 40px;
+    line-height: 38px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #d9514e;
+    margin: 2px;
+    padding: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c14545;
+    border-radius: 2px;
+    box-shadow: none;
+    text-align: center;
+    cursor: pointer;
+    font-family: inherit;
+}
+.wbls-front-buttons-container .wbls-new-case-button:hover {
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #c14545;
+}
+.wbls-front-buttons-container .wbls-followup-button {
+    width: 200px;
+    height: 40px;
+    line-height: 38px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #643e46;
+    margin: 2px;
+    padding: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #593740;
+    border-radius: 2px;
+    box-shadow: none;
+    text-align: center;
+    cursor: pointer;
+    font-family: inherit;
+}
+.wbls-front-buttons-container .wbls-followup-button:hover {
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #643e46;
+}
+.wbls-chat-container .wbls_user_row .wbls_message {
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #643e46;
+    color: #ffffff;
+    margin: 2px;
+    padding: 4px 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #643e46;
+    border-radius: 4px;
+    box-shadow: none;
+}
+.wbls-chat-container .wbls_admin_row .wbls_message {
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #d9514e;
+    color: #ffffff;
+    margin: 2px;
+    padding: 4px 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d9514e;
+    border-radius: 4px;
+    box-shadow: none;
+}
+.wbls-chat-container #wbls-new-reply {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 2px;
+    padding: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dfdfdf;
+    border-radius: 5px;
+    box-shadow: none;
+}
+.wbls-new-chat-section #wbls-reply-button {
+    position: relative;
+    width: 200px;
+    height: 38px;
+    line-height: 36px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #303030;
+    margin: 2px;
+    padding: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 4px;
+    box-shadow: none;
+    text-align: center;
+    cursor: pointer;
+    font-family: inherit;
+    float: right;
+}
+
+.wbls-reply-button-container {
+    display: flex;
+    justify-content: end;
+}
+
+.wbls-reply-attachement > input {
+    display: none;
+}
+
+.wbls-reply-attachement img {
+    width: 34px;
+    cursor: pointer;
+    margin: 5px 10px 0 0;
+}
+
+.wbls-front-buttons-container #wbls-reply-button:hover {
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #643e46;
+}
+.wbls-login-container .wbls-token-input {
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 2px;
+    padding: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #593740;
+    border-radius: 2px;
+    box-shadow: none;
+}
+.wbls-login-container .wbls-login-button {
+    display: block;
+    width: 200px;
+    height: 38px;
+    line-height: 36px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #643e46;
+    margin: 15px auto;
+    padding: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #593740;
+    border-radius: 2px;
+    box-shadow: none;
+    text-align: center;
+    cursor: pointer;
+    font-family: inherit;
+}
+.wbls-login-container .wbls-login-button:hover {
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #593740;
+}
+
+.wbls-field-description {
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.wbls-form p.wbls-success-msg {
+    background: #e0ffc7;
+    border: 1px solid #b4d39b;
+    width: 100%;
+    color: #333;
+    margin: 0 0 15px 0;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.wbls-form p.wbls-error-msg {
+    background: #fbeaea;
+    border: 1px solid #eed3d7;
+    width: 100%;
+    color: #333;
+    margin: 0 0 15px 0;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.wbls-form p.wbls-field-error-msg {
+    width: 100%;
+    color: #ec0808;
+    margin: 0;
+    padding: 5px 10px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.wblsform-row.wbls-label-top {
+    padding: 10px 0;
+}
+
+.wblsform-row .wbls-field-firstName input[type=text],
+.wblsform-row .wbls-field-lastName input[type=text],
+.wblsform-row .wbls-field-middleName input[type=text] {
+    width: 100%;
+    min-width: unset;
+}
+
+.wbls-form .wblsform-row input[type=text]:focus {
+    border: 1px solid #066aab;
+    box-shadow: 0 0 0 1px #066aab, 0px 1px 2px rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+.wbls-form .wblsform-row textarea:focus{
+    border: 1px solid #066aab;
+    box-shadow: 0 0 0 1px #066aab, 0px 1px 2px rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+.wbls-field-fullName-container  {
+    display: flex;
+    width: 100%;
+}
+
+.wbls-field-firstName {
+    margin-right: 10px;
+    flex-grow: 5;
+}
+
+.wbls-field-lastName {
+    margin-right: 10px;
+    flex-grow: 5;
+}
+
+
+.wbls-field-middleName {
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+.wbls-form-container .wbls-form label.wbls-field-miniLabel {
+    font-size: 12px;
+    margin-left: 3px;
+    margin-top: 3px;
+    font-weight: 600;
+    opacity: 1;
+}
+
+.wbls-form-container .wbls-form label.wbls-field-miniLabel.wbls-radio-label {
+    font-size: 13px;
+    margin-left: 0;
+    margin-top: 3px;
+    font-weight: 400;
+    opacity: 1;
+}
+
+.wbls-field-row-radio input[type=radio] {
+    border-radius: 50%;
+    margin-right: .25rem;
+    margin-top: 2px;
+    line-height: 13px;
+    height: 16px;
+    width: 16px;
+}
+
+.wbls-msg-token {
+    display: block;
+    border: 2px solid #094307;
+    padding: 3px 10px;
+    margin-top: 5px;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.wbls-hide-overflow {
+    overflow: hidden!important;
+}
+
+.wbls-error-msg,
+#wbls-reply-form p.wbls-field-error-msg {
+    width: 100%;
+    color: #ec0808;
+    margin: 0 0 15px 0;
+    padding: 5px 10px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.wbls-front-header {
+    margin-bottom: 20px;
+}
+
+.wbls-address-row {
+    display: flex;
+    width: 100%;
+}
+
+.wbls-field-postal,
+.wbls-field-city {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.wbls-field-state,
+.wbls-field-country {
+    width: 50%;
+}
+
+.grecaptcha-badge{
+    z-index: 9999;
+}
+
+.wblsform-row-pageButtonNextPrev-container {
+    display: flex;
+}
+
+.wblsform-row-pageButtonNextPrev-container .wblsform-row-page:nth-child(2) {
+    display: flex;
+    justify-content: right;
+}
+
+.wblsform-row-pageButtonPrev,
+.wblsform-row-pageButtonNext {
+    display: flex;
+    align-items: baseline;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.wbls-form-container .wbls-form .wblsform-row-pageButtonNext.wblsform-row-page {
+    justify-content: flex-end;
+}
+/* End */
+
+
+/* Media */
+@media screen and (max-width: 840px){
+    body .wbls-front-content{
+        padding: 50px 0 0 0;
+    }
+    .wbls-front-content-close{
+        right: 20px;
+    }
+    .wbls-form-container form.wbls-form {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .wbls-form-container {
+        width: 100%;
+    }
+    .wbls-token-row{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .wbls-form-container form.wbls-form{
+        width: 80%;
+        margin-top: 20px;
+    }
+    .wbls-front-content{
+        padding: 50px 15px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .wbls-form-container form.wbls-form{
+        width: 90%;
+        padding: 40px 20px;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    .wbls-form-container form.wbls-form{
+        width: 90%;
+    }
+    .wbls-front-content{
+        padding: 30px 10px;
+    }
+}

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="18" height="18">
+	<title>whistleblowing_favicon_1</title>
+	<defs>
+		<image  width="32" height="32" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAAXNSR0IB2cksfwAAATJQTFRFAYCADJnWDZnWDZrWHKDZhczrteDzn9fvPq/fEJzXEpzXDpvXU7jiJqXbH6LZ3PH6////+/7/W7vkD5vXe8jpueL08/r9bsPnGqDZd8fow+b1gcvqGJ/YkNHt6Pb7OKzes+Dz7/n9ccTnRrLgXrzkyOj2Manch83r6/f8uOLzIqPay+r3ktLtLKfct+HzXLvktuHzjM/skdHtfcnp+Pz+vuT0RLHgwub1v+T19/z+HqHZR7LgMqrdFJ3YqdvxacHmlNPtqNvxxOf1+v3/NKrdnNbvo9nw1u74weX1u+P0is/sZ8DmFp7YTbXhecfpL6jcKabbcsXo8vr9Lqjcyun2Q7HgzOr38fr9QrDf0ez48Pn9QbDfI6TaOKzeYL3l/v//dMXontfvG6DZ0uz4JaTbDJrVXmjZ5QAAAGZ0Uk5TAgAAAAD/////AAAA/5Ag/////wD/////AP///wD/////////////////UP//8P///////////////xD//wD//////////////////wD////A//////////////9gAP////8A/xgA8xUSjgAAASVJREFUeJxjYGBkYsYNGBkYGPFIg1Xgl2dmppcCFlY2dg5kUU4uIMHNwwtVwMcvICAgKASVFOYQERUTZ5aQlJKWgSqQFQABOWGgJnlJBUUQR0lZVIUTboUqWIGAmrq4hgAUKKG4QRMiqKWtIwBXoKsHBKxQBfpgMQNmQyMB7CYwG5sICJjyAR1vZm5hCVFgxi6PHA5W1jZg2tbUzt7B0ckZaIKLq6iQMEyBrpu7B8iXtp4CAl7ezMw+vrqg0PHzhyoIADs+ECwfFIwlJF3B1ga5hgCJUGxBHQZ3fHgE1riIhMlHRWOPLKgCcd8YTHlkBbFYpCEK4uIJKGBOIKSA2YuQAuZEQgqEFQgoYLaVIqCAOSmZgALmmBQCCnAAhlT88qkMhLI/AImsLulglz9lAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

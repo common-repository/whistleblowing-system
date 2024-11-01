@@ -1,0 +1,328 @@
+#wpbody-content>div:not(.wrap):not([class*="wbls-"]) {
+    display: none;
+}
+
+.wbls-form-count {
+    width: 200px;
+}
+
+.wbls-form-type {
+    width: 200px;
+}
+
+.wbls-subm-table {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.wbls-subm-table tr,
+.wbls-subm-table thead,
+.wbls-subm-table tbody {
+    width: 100%;
+}
+
+.wbls-subm-table thead tr th {
+    border-bottom: 1px solid #c3c4c7;
+    color: #2c3338;
+    line-height: 1.4em;
+}
+
+.wbls-subm-table>tbody>:nth-child(odd) {
+    background-color: #f6f7f7;
+}
+
+.wbls-subm-table td, .wbls-subm-table th {
+    padding: 8px 10px;
+}
+
+.wbls-chat-icon {
+    color: #4ebb2f;
+    cursor: pointer;
+}
+
+.wbls-access-chat-column {
+    width: 30px;
+    box-sizing: border-box;
+}
+
+.wbls-subm-table tbody tr td.wbls-access-key-column {
+    position: unset;
+    width: 60px;
+    box-sizing: border-box;
+}
+
+.wbls-subm-table tbody tr td.wbls-status-column {
+    position: unset;
+}
+
+.wbls-access-key-column .wbls-access-key-container {
+    display: none;
+    position: absolute;
+    width: 400px;
+    height: auto;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    right: 0;
+    background-color: #FFFFFF;
+    z-index: 1;
+    -webkit-box-shadow: 0px 0px 9px -3px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 9px -3px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 9px -3px rgba(66, 68, 90, 1);
+
+}
+
+
+.wbls-access-key-container .wbls-access-key-item {
+    margin-bottom: 8px;
+}
+
+.wbls-access-key-container .wbls-access-key-item:nth-child(2) {
+    margin-bottom: 0px;
+}
+
+.wbls-access-key-container .wbls-access-key-item label {
+    margin-bottom: 3px;
+}
+
+.wbls-access-key-container span {
+    width: 100%;
+    height: 30px;
+    line-height: 24px;
+    border: 1px solid #cccccc;
+
+    display: block;
+    padding: 3px 5px;
+    box-sizing: border-box;
+}
+
+.wbls-chats-content {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border: 1px solid #cccccc;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    z-index: 999999;
+    align-items: center;
+    justify-content: center;
+}
+
+.wbls-chat-container {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    justify-content: space-between;
+}
+
+.wbls-new-reply {
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    font-size: 13px;
+    color: #000000;
+}
+
+.wbls-new-reply:focus{
+    border: 2px solid #0d9ad6;
+}
+
+.wbls-chats-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.wbls-subm-table .wbls-row-actions {
+    position: absolute!important;
+    left: 10px;
+    top: 15px;
+}
+
+.wbls-subm-table tbody tr:hover .wbls-row-actions {
+    display: block;
+    padding-top: 10px;
+}
+
+.wbls-subm-table tbody tr td {
+    height: 45px;
+    vertical-align: top;
+    position: relative;
+}
+
+.wbls-subm-table tbody tr td:first-child {
+    width: 20px;
+}
+
+.wbls-subm-table tbody tr td > a {
+    display: inline-block;
+}
+
+.wbls-reply-button.wbls-button-loading::before {
+    animation: rotation 1s infinite linear;
+    position: absolute;
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: url(../images/loader.svg) no-repeat;
+    background-size: 18px;
+    top: calc(50% - 9px);
+    left: calc(50% - 9px);
+    display: inline-block;
+}
+
+td.wbls-textarea {
+    max-width: 200px;
+}
+
+.wbls-hide-overflow {
+    overflow: hidden!important;
+}
+
+p.wbls-field-error-msg {
+    width: 100%;
+    color: #ec0808;
+    margin: 0 0 15px 0;
+    padding: 5px 10px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.wbls-button.wbls-export-csv {
+    font-size: 16px;
+    font-weight: 600;
+    width: 85px;
+    height: 42px;
+    line-height: 40px;
+    margin: 0 20px 0 0;
+    padding: 0 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: #0d9ad6;
+    border-color: #0d9ad6;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+
+.wbls-button.wbls-export-csv:hover {
+    color: #FFFFFF;
+    background-color: #0578a9;
+}
+
+.wbls-loading:after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background: #FF0000;
+    opacity: 0.8;
+}
+
+.wbls-delete-all-submission,
+.wbls-delete-submission {
+    cursor: pointer;
+    color: #ff0000;
+}
+
+.wbls-response-message {
+    font-size: 13px;
+    padding: 4px 10px;
+    box-sizing: border-box;
+    width: 95%;
+    margin: 0 auto 10px auto;
+    display: none;
+    background-color: #ffffff;
+}
+
+.wbls-error-message {
+    border-left: 4px solid #ff0000;
+}
+
+.wbls-success-message {
+    border-left: 4px solid #4ebb2f;
+}
+
+.wbls-hidden {
+    display: none!important;
+}
+
+.wbls-status-column {
+    width: 90px;
+}
+
+.wbls-status-button {
+    padding: 3px 10px;
+    border-radius: 5px;
+    background-color: #d2cfcf;
+    cursor: pointer;
+    color: #000000;
+    position: relative;
+}
+
+.wbls-status-button:hover {
+    background-color: #bdbaba;
+}
+
+.wbls-status-dropdown {
+    position: absolute;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #d2cfcf;
+    color: #ffffff;
+    padding: 10px;
+    top: 25px;
+    right: 0;
+    border-radius: 5px;
+    z-index:9;
+}
+
+.wbls-status-item {
+    cursor: pointer;
+    color: #000000;
+    padding: 5px;
+}
+
+.wbls-status-item:hover {
+    background-color: #bdbaba;
+}
+
+.wbls-bulk-action-row {
+    display: flex;
+    margin: 0 auto 10px 2.5%;
+    padding: 0px;
+}
+
+.wbls-bulk-action-row span.wbls-bulk-action-apply {
+    min-width: 60px;
+    text-align: center;
+}
+
+.wbls-bulk-action-row span.wbls-bulk-action-apply.wbls-button-loading::before {
+    background: url("../images/loader_dark.svg") no-repeat center;
+}
+
+
